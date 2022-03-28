@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js",
+    "serve": "nodemon index.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Alee2117/tensorflow-test/issues"
   },
-  "homepage": "https://github.com/Alee2117/tensorflow-test#readme"
+  "homepage": "https://github.com/Alee2117/tensorflow-test#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
